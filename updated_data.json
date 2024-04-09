@@ -1,0 +1,414 @@
+{
+            "name": "General",
+            "value": "General",
+            "description": "Placeholder description for Biomechanics.",
+            "children": [
+                {
+                    "id": "Spatiotemporal",
+                    "parents": "Biomechanics",
+                    "name": "Spatiotemporal",
+                    "value": "Spatiotemporal",
+                    "description": "Placeholder description for Spatiotemporal.",
+                    "children": [
+                        {
+                            "id": "StrideFrequency",
+                            "parents": "Spatiotemporal",
+                            "name": "Stride Frequency",
+                            "value": "Stride Frequency",
+                            "description": "Placeholder description for Stride Frequency.",
+                            "children": [
+                                {
+                                    "id": "FightTime",
+                                    "parents": "StrideFrequency",
+                                    "name": "Flight Time",
+                                    "value": "Flight Time",
+                                    "description": "Placeholder description for Flight Time."
+                                },
+                                {
+                                    "id": "SwingTime",
+                                    "parents": "StrideFrequency",
+                                    "name": "Swing Time",
+                                    "value": "Swing Time",
+                                    "description": "Placeholder description for Swing Time."
+                                },
+                                {
+                                    "id": "StrideTime",
+                                    "parents": "StrideFrequency",
+                                    "name": "Stride Time",
+                                    "value": "Stride Time",
+                                    "description": "Placeholder description for Stride Time."
+                                },
+                                {
+                                    "id": "ContactTime",
+                                    "parents": "StrideFrequency",
+                                    "name": "Contact Time",
+                                    "value": "Contact Time",
+                                    "description": "Placeholder description for Contact Time."
+                                },
+                                {
+                                    "id": "StepNumber",
+                                    "parents": "StrideFrequency",
+                                    "name": "Number of steps",
+                                    "value": "Number of steps",
+                                    "description": "Placeholder description for Number of steps."
+                                },
+                                {
+                                    "id": "DutyFactor",
+                                    "parents": "StrideFrequency",
+                                    "name": "Duty Factor",
+                                    "value": "Duty Factor",
+                                    "description": "Placeholder description for Duty Factor."
+                                },
+                                {
+                                    "id": "PropulsivePhase",
+                                    "parents": "StrideFrequency",
+                                    "name": "Propulsive Phase",
+                                    "value": "Propulsive Phase",
+                                    "description": "Placeholder description for Propulsive Phase."
+                                },
+                                {
+                                    "id": "BrakingPhase",
+                                    "parents": "StrideFrequency",
+                                    "name": "Braking Phase",
+                                    "value": "Braking Phase",
+                                    "description": "Placeholder description for Braking Phase."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "StrideLength",
+                            "parents": "Spatiotemporal",
+                            "name": "Stride Length",
+                            "value": "Stride Length",
+                            "description": "Placeholder description for Stride Length.",
+                            "children": [
+                                {
+                                    "id": "NormSrideLength",
+                                    "parents": "StrideLength",
+                                    "name": "Nomalised stride length",
+                                    "value": "Nomalised stride length",
+                                    "description": "Placeholder description for Nomalised stride length."
+                                },
+                                {
+                                    "id": "StepLength",
+                                    "parents": "StrideLength",
+                                    "name": "Step length",
+                                    "value": "Step length",
+                                    "description": "Placeholder description for Step length."
+                                },
+                                {
+                                    "id": "DiffStepLength",
+                                    "parents": "StrideLength",
+                                    "name": "Step length differnce",
+                                    "value": "Step length differnce",
+                                    "description": "Placeholder description for Step length differnce."
+                                },
+                                {
+                                    "id": "StepVelocity",
+                                    "parents": "StrideLength",
+                                    "name": "Step velocity",
+                                    "value": "Step velocity",
+                                    "description": "Placeholder description for Step velocity."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Kinematics",
+                    "parents": "Biomechanics",
+                    "name": "Kinematics",
+                    "value": "Kinematics",
+                    "description": "Placeholder description for Kinematics.",
+                    "children": [
+                        {
+                            "id": "Angular",
+                            "parents": "Kinematics",
+                            "name": "Angular",
+                            "value": "Angular",
+                            "description": "Placeholder description for Angular.",
+                            "children": [
+                                {
+                                    "id": "TO",
+                                    "parents": "Angular",
+                                    "name": "Take-off",
+                                    "value": "Take-off",
+                                    "description": "Placeholder description for Take-off.",
+                                    "children": [
+                                        {
+                                            "id": "KneeTO",
+                                            "parents": "TO",
+                                            "name": "Knee angle TO",
+                                            "value": "Knee angle TO",
+                                            "description": "Placeholder description for Knee angle TO."
+                                        },
+                                        {
+                                            "id": "HipTO",
+                                            "parents": "TO",
+                                            "name": "Hip angle at TO",
+                                            "value": "Hip angle at TO",
+                                            "description": "Placeholder description for Hip angle at TO."
+                                        },
+                                        {
+                                            "id": "AnkleTO",
+                                            "parents": "TO",
+                                            "name": "Ankle angle TO",
+                                            "value": "Ankle angle TO",
+                                            "description": "Placeholder description for Ankle angle TO."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Stance",
+                                    "parents": "Angular",
+                                    "name": "Stance",
+                                    "value": "Stance",
+                                    "description": "Placeholder description for Stance.",
+                                    "children": [
+                                        {
+                                            "id": "PeakKneeAngle",
+                                            "parents": "Stance",
+                                            "name": "Peak knee flexion during stance",
+                                            "value": "Peak knee flexion during stance",
+                                            "description": "Placeholder description for Peak knee flexion during stance."
+                                        },
+                                        {
+                                            "id": "PeakAnkleAngle",
+                                            "parents": "Stance",
+                                            "name": "Peak ankle angle during stance",
+                                            "value": "Peak ankle angle during stance",
+                                            "description": "Placeholder description for Peak ankle angle during stance."
+                                        },
+                                        {
+                                            "id": "IC",
+                                            "parents": "Stance",
+                                            "name": "Initial Contact",
+                                            "value": "Initial Contact",
+                                            "description": "Placeholder description for Initial Contact.",
+                                            "children": [
+                                                {
+                                                    "id": "HipIC",
+                                                    "parents": "IC",
+                                                    "name": "Hip angle IC",
+                                                    "value": "Hip angle IC",
+                                                    "description": "Placeholder description for Hip angle IC."
+                                                },
+                                                {
+                                                    "id": "KneeIC",
+                                                    "parents": "IC",
+                                                    "name": "Knee angle IC",
+                                                    "value": "Knee angle IC",
+                                                    "description": "Placeholder description for Knee angle IC."
+                                                },
+                                                {
+                                                    "id": "AnkleIC",
+                                                    "parents": "IC",
+                                                    "name": "Ankle angle IC",
+                                                    "value": "Ankle angle IC",
+                                                    "description": "Placeholder description for Ankle angle IC."
+                                                },
+                                                {
+                                                    "id": "ShankIC",
+                                                    "parents": "IC",
+                                                    "name": "Shank angle IC",
+                                                    "value": "Shank angle IC",
+                                                    "description": "Placeholder description for Shank angle IC."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "COM",
+                            "parents": "Kinematics",
+                            "name": "COM",
+                            "value": "COM",
+                            "description": "Placeholder description for COM.",
+                            "children": [
+                                {
+                                    "id": "VerticalOscillations",
+                                    "parents": "COM",
+                                    "name": "Vertical oscillations",
+                                    "value": "Vertical oscillations",
+                                    "description": "Placeholder description for Vertical oscillations."
+                                },
+                                {
+                                    "id": "NormVerticalOscilations",
+                                    "parents": "COM",
+                                    "name": "Vertical oscillation normalised for step length",
+                                    "value": "Vertical oscillation normalised for step length",
+                                    "description": "Placeholder description for Vertical oscillation normalised for step length."
+                                },
+                                {
+                                    "id": "COMHeelDist",
+                                    "parents": "COM",
+                                    "name": "COM-Heel Distance",
+                                    "value": "COM-Heel Distance",
+                                    "description": "Placeholder description for COM-Heel Distance."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "Kinetics",
+                    "parents": "Biomechanics",
+                    "name": "Kinetics",
+                    "value": "Kinetics",
+                    "description": "Placeholder description for Kinetics.",
+                    "children": [
+                        {
+                            "id": "GRF",
+                            "parents": "Kinetics",
+                            "name": "Ground Reaction Force",
+                            "value": "Ground Reaction Force",
+                            "description": "Placeholder description for Ground Reaction Force.",
+                            "children": [
+                                {
+                                    "id": "AbsVertGRF",
+                                    "parents": "GRF",
+                                    "name": "Absolute vertical GRF",
+                                    "value": "Absolute vertical GRF",
+                                    "description": "Placeholder description for Absolute vertical GRF."
+                                },
+                                {
+                                    "id": "NormVertGRF",
+                                    "parents": "GRF",
+                                    "name": "Normalized vertical GRF",
+                                    "value": "Normalized vertical GRF",
+                                    "description": "Placeholder description for Normalized vertical GRF."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Stiffness",
+                            "parents": "Kinetics",
+                            "name": "Stiffness",
+                            "value": "Stiffness",
+                            "description": "Placeholder description for Stiffness.",
+                            "children": [
+                                {
+                                    "id": "VertStiffness",
+                                    "parents": "Stiffness",
+                                    "name": "Vertical stiffness",
+                                    "value": "Vertical stiffness",
+                                    "description": "Placeholder description for Vertical stiffness."
+                                },
+                                {
+                                    "id": "LegStiffness",
+                                    "parents": "Stiffness",
+                                    "name": "Leg stiffness",
+                                    "value": "Leg stiffness",
+                                    "description": "Placeholder description for Leg stiffness."
+                                },
+                                {
+                                    "id": "KneeStiffness",
+                                    "parents": "Stiffness",
+                                    "name": "Knee stiffness",
+                                    "value": "Knee stiffness",
+                                    "description": "Placeholder description for Knee stiffness."
+                                },
+                                {
+                                    "id": "AnkleStiffness",
+                                    "parents": "Stiffness",
+                                    "name": "Ankle stiffness",
+                                    "value": "Ankle stiffness",
+                                    "description": "Placeholder description for Ankle stiffness."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Work",
+                            "parents": "Kinetics",
+                            "name": "Work",
+                            "value": "Work",
+                            "description": "Placeholder description for Work.",
+                            "children": [
+                                {
+                                    "id": "TotMechWork",
+                                    "parents": "Work",
+                                    "name": "Total mechanical work",
+                                    "value": "Total mechanical work",
+                                    "description": "Placeholder description for Total mechanical work."
+                                },
+                                {
+                                    "id": "NegMechWork",
+                                    "parents": "Work",
+                                    "name": "Negative mechanical work",
+                                    "value": "Negative mechanical work",
+                                    "description": "Placeholder description for Negative mechanical work."
+                                },
+                                {
+                                    "id": "PosMechWork",
+                                    "parents": "Work",
+                                    "name": "Positive mechanical work",
+                                    "value": "Positive mechanical work",
+                                    "description": "Placeholder description for Positive mechanical work."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "MuscleActivity",
+                    "parents": "Biomechanics",
+                    "name": "Muscle activity",
+                    "value": "Muscle activity",
+                    "description": "Placeholder description for Muscle activity.",
+                    "children": [
+                        {
+                            "id": "EMGGluteusMaximus",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Gluteus Maximus",
+                            "value": "EMG Gluteus Maximus",
+                            "description": "Placeholder description for EMG Gluteus Maximus."
+                        },
+                        {
+                            "id": "EMGBicepFemoris",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Biceps Femoris",
+                            "value": "EMG Biceps Femoris",
+                            "description": "Placeholder description for EMG Biceps Femoris."
+                        },
+                        {
+                            "id": "EMGGastrocnemius",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Gastrocnemius (Stance)",
+                            "value": "EMG Gastrocnemius (Stance)",
+                            "description": "Placeholder description for EMG Gastrocnemius (Stance)."
+                        },
+                        {
+                            "id": "EMGRectusFemorsiStance",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Rectus Femoris (Stance)",
+                            "value": "EMG Rectus Femoris (Stance)",
+                            "description": "Placeholder description for EMG Rectus Femoris (Stance)."
+                        },
+                        {
+                            "id": "EMGTibialisAnterior",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Tibialis Anterior",
+                            "value": "EMG Tibialis Anterior",
+                            "description": "Placeholder description for EMG Tibialis Anterior."
+                        },
+                        {
+                            "id": "EMGSoleusStance",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Soleus (Stance)",
+                            "value": "EMG Soleus (Stance)",
+                            "description": "Placeholder description for EMG Soleus (Stance)."
+                        },
+                        {
+                            "id": "EMGVastusLateralisStance",
+                            "parents": "MuscleActivity",
+                            "name": "EMG Vastus Lateralis (Stance)",
+                            "value": "EMG Vastus Lateralis (Stance)",
+                            "description": "Placeholder description for EMG Vastus Lateralis (Stance)."
+                        }
+                    ]
+                }
+            ],
+            "id": "General"
+        }
