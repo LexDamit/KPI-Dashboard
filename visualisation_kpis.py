@@ -9,7 +9,7 @@ with col1:
     st.caption(" ")
 
 with col2:
-    st.image('logo.png', width=250,)
+    st.caption("")
 
     with col3:
         st.caption(" ")
