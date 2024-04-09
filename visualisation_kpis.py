@@ -174,7 +174,6 @@ st.header("3. Table")
 df_general['Category'] = 'General'
 df_sprint_start['Category'] = 'Sprint Start'
 df_obstacles['Category'] = 'Obstacles'
-st.dataframe(df_combined)
 
 df_combined = pd.concat([df_general, df_sprint_start, df_obstacles], ignore_index=True)
 df_display_filtered = df_combined[df_combined['Description'].str.lower() != "node"]
