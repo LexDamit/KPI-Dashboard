@@ -65,7 +65,7 @@ else:
     criteria2 = None
 
 def load_and_apply_criteria(sheet_name, criteria1, criteria2):
-    df = pd.read_excel('/KPIs.xlsx', sheet_name)
+    df = pd.read_excel('./KPIs.xlsx', sheet_name)
     if interaction_mode:
         df['Interaction'] = df[criteria1] * df[criteria2]
         return df, 'Interaction'
