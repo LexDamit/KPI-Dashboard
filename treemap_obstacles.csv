@@ -1,0 +1,29 @@
+id,labels,parents
+Obstacles,Obstacles,NaN
+ObstacleSpatiotemporal,Spatiotemporal,Obstacles
+ObsTODistance,Take-off Distance,ObstacleSpatiotemporal
+ObsLandingDistance,Landing Distance,ObstacleSpatiotemporal
+ObsLandingStepLength,Landing Step Length,ObstacleSpatiotemporal
+ObsRecoveryStepLength,Recovery Step Length,ObstacleSpatiotemporal
+ObsHurdleFlightTime,Hurdle Flight Time,ObstacleSpatiotemporal
+ObsContactTimeAfterHurdle,Contact Time after Hurdle,ObstacleSpatiotemporal
+ObsdMeanIntervalTime,Mean interval time,ObstacleSpatiotemporal
+ObsFastestIntervalTime,Fastest Time interval,ObstacleSpatiotemporal
+ObsSlowestIntervalTime,Slowest Time interval,ObstacleSpatiotemporal
+ObsStepNumberPerIntervl,Number of Steps per interval,ObstacleSpatiotemporal
+ObsWaterTime,Water Time,ObstacleSpatiotemporal
+ObsApproachSL,Approach step length,ObstacleSpatiotemporal
+ObsMeanLossperInterval,Mean time loss per interval,ObstacleSpatiotemporal
+ObstaclesKinematics,Kinematics,Obstacles
+COMHeight,COM Height,ObstaclesKinematics
+ObsTOVelocity,Take off velocity,ObstaclesKinematics
+ObsTOAngle,Take off angle,ObstaclesKinematics
+ObsApproachSpeed,Approach Speed,ObstaclesKinematics
+ObsExitSpeed,Exit Speed,ObstaclesKinematics
+ObsChangeSpeed,Change in Speed,ObstaclesKinematics
+ContactMade,Contact made,ObstaclesKinematics
+ObstaclesAngular,Angular,ObstaclesKinematics
+TrailKneeAngle,Trail Leg Knee Angle,ObstaclesAngular
+LeadKneeAngle,Lead Leg Knee Angle,ObstaclesAngular
+TrunkThighAngle,Trunk-thigh angle,ObstaclesAngular
+DeviationAngle,Deviation angle,ObstaclesAngular

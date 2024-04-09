@@ -1,0 +1,56 @@
+id,labels,parents
+Biomechanics,Biomechanics,NaN
+Spatiotemporal,Spatiotemporal,Biomechanics
+StrideFrequency,Stride Frequency,Spatiotemporal
+FightTime,Flight Time,StrideFrequency
+SwingTime,Swing Time,StrideFrequency
+StrideTime,Stride Time,StrideFrequency
+ContactTime,Contact Time,StrideFrequency
+StepNumber,Number of steps,StrideFrequency
+DutyFactor,Duty Factor,StrideFrequency
+PropulsivePhase,Propulsive Phase,StrideFrequency
+BrakingPhase,Braking Phase,StrideFrequency
+StrideLength,Stride Length,Spatiotemporal
+NormSrideLength,Nomalised stride length,StrideLength
+StepLength,Step length,StrideLength
+DiffStepLength,Step length differnce,StrideLength
+StepVelocity,Step velocity,StrideLength
+Kinematics,Kinematics,Biomechanics
+Angular,Angular,Kinematics
+TO,Take-off,Angular
+KneeTO,Knee angle TO,TO
+HipTO,Hip angle at TO,TO
+AnkleTO,Ankle angle TO,TO
+Stance,Stance,Angular
+PeakKneeAngle,Peak knee flexion during stance,Stance
+PeakAnkleAngle,Peak ankle angle during stance,Stance
+IC,Initial Contact,Stance
+HipIC,Hip angle IC,IC
+KneeIC,Knee angle IC,IC
+AnkleIC,Ankle angle IC,IC
+ShankIC,Shank angle IC,IC
+COM,COM,Kinematics
+VerticalOscillations,Vertical oscillations,COM
+NormVerticalOscilations,Vertical oscillation normalised for step length,COM
+COMHeelDist,COM-Heel Distance,COM
+Kinetics,Kinetics,Biomechanics
+GRF,Ground Reaction Force,Kinetics
+AbsVertGRF,Absolute vertical GRF,GRF
+NormVertGRF,Normalized vertical GRF,GRF
+Stiffness,Stiffness,Kinetics
+VertStiffness,Vertical stiffness,Stiffness
+LegStiffness,Leg stiffness,Stiffness
+KneeStiffness,Knee stiffness,Stiffness
+AnkleStiffness,Ankle stiffness,Stiffness
+Work,Work,Kinetics
+TotMechWork,Total mechanical work,Work
+NegMechWork,Negative mechanical work,Work
+PosMechWork,Positive mechanical work,Work
+MuscleActivity,Muscle activity,Biomechanics
+EMGGluteusMaximus,EMG Gluteus Maximus,MuscleActivity
+EMGBicepFemoris,EMG Biceps Femoris,MuscleActivity
+EMGGastrocnemius,EMG Gastrocnemius (Stance),MuscleActivity
+EMGRectusFemorsiStance,EMG Rectus Femoris (Stance),MuscleActivity
+EMGTibialisAnterior,EMG Tibialis Anterior,MuscleActivity
+EMGSoleusStance,EMG Soleus (Stance),MuscleActivity
+EMGVastusLateralisStance,EMG Vastus Lateralis (Stance),MuscleActivity

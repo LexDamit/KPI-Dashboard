@@ -1,0 +1,50 @@
+id,labels,parents
+BlockStart,Block Start,NaN
+SetPosition,Set Position,BlockStart
+COMtoStartLine,Horizontal distance COM to Start Line,SetPosition
+VerticalCOMHeight,Vertical height of COM,SetPosition
+FrontHipAngle,Front leg hip angle,SetPosition
+FrontKneeAngle,Front leg knee angle,SetPosition
+FrontAnkeAngle,Front leg ankle angle,SetPosition
+RearHipAngle,Rear leg hip angle,SetPosition
+RearKneeAngle,Rear leg knee angle,SetPosition
+RearAnkleAngle,Rear leg ankle angle,SetPosition
+TrunkAngle,Trunk angle,SetPosition
+BlockPhase,Block Phase,BlockStart
+TemporalBP,Temporal,BlockPhase
+BlockTime,Block Time,TemporalBP
+RearBlocjTime,Rear leg block time,TemporalBP
+FrontBlockTime,Front leg block time,TemporalBP
+TotalRT,Total Reaction  Time,TemporalBP
+RearBlockRT,Rear Block Reaction Time,TemporalBP
+FrontBlockRT,Front Block Reaction Time,TemporalBP
+PremotorRT,Premotor Reaction Time,TemporalBP
+RatioBlockTime,Ratio rear leg time/block time,TemporalBP
+SSKinematics,Sprint Start Kinematics,BlockPhase
+ResultantExitVelocity,Resultant exit velocity,SSKinematics
+HorizontalExitVelocity,Horizontal velocity,SSKinematics
+VerticalVelocity,Vertical velocity,SSKinematics
+ResultantAcceleration,Resultant Acceleration,SSKinematics
+Take-OffAngle,Take-off angle,SSKinematics
+AngularDisplacement,Angular displacement,SSKinematics
+AnkleDorsiflexion,Ankle dorsiflexion,SSKinematics
+TOTrunkAngle,Trunk angle at TO,SSKinematics
+TOJointAngle,Joint angles at TO,SSKinematics
+JointAngularVelocity,Joint Angular velocity,SSKinematics
+SSKinetics,Sprint Start Kinetics,BlockPhase
+BlockForce,Block Force,SSKinetics
+ResultantFrontBlockForce,Resultant Front Block Force,SSKinetics
+ResultantRearBlockForce,Resultant Rear Block Force,SSKinetics
+BlockPower,Block Power,SSKinetics
+BlockForceImpulse,Block Force impulse,SSKinetics
+HorizontalForce,Horizontal Force,SSKinetics
+VerticalForce,Vertical Force,SSKinetics
+COPLocation,COP Location,SSKinetics
+SSFirstStep,First Step,BlockStart
+FirstStepCT,First Step Contact Time,SSFirstStep
+FirstStepFT,First Step Flight Time,SSFirstStep
+FirstStepResultantVelocity,First Step Resultant Velocity,SSFirstStep
+FirstStepHorizontalVelocity,First Step Horizontal Velocity,SSFirstStep
+FirstStepVerticalVelocity,First Step Vertical Velocity,SSFirstStep
+FirstStepCOMProjection,First Step CM projection,SSFirstStep
+FirstStepJointAngles,First Step joint angles,SSFirstStep
