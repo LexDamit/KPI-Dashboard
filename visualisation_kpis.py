@@ -22,9 +22,9 @@ st.markdown("This dashboard introduces a systematic analysis of key performance 
 
 st.header("1.Categorisation of Athletics Running Events")
 st.markdown("Athletics holds a distinguished position as one of the most contested sports in the Olympic Games, offering a diverse array of competitive events that test the limits of human speed, strength, and endurance. The sport is traditionally divided into three main categories: track, field, and multi-events, collectively encompassing a total of 44 distinct events. \n \nThis section specifically addresses the track category, providing a detailed exploration of its composition and the systematic classification of running events.")
-st.image('/Users/lexdamit/Documents/MTAthleticsStories/Treemap/Athletics.png')
+st.image('/Athletics.png')
 st.markdown("**Figure 1:** Categorization of Running Events in Athletics. This diagram classifies events into Sprints, Distance, and Relays, with further subdivisions based on track configuration, distance, and team gender composition. ")
-st.image('/Users/lexdamit/Documents/MTAthleticsStories/Treemap/Athletics-3.png')
+st.image('Athletics-3.png')
 
 st.header("2. Treemaps")
 
@@ -65,7 +65,7 @@ else:
     criteria2 = None
 
 def load_and_apply_criteria(sheet_name, criteria1, criteria2):
-    df = pd.read_excel('//Users/lexdamit/Documents/MTAthleticsStories/Treemap/KPIs.xlsx', sheet_name)
+    df = pd.read_excel('/KPIs.xlsx', sheet_name)
     if interaction_mode:
         df['Interaction'] = df[criteria1] * df[criteria2]
         return df, 'Interaction'
@@ -118,7 +118,7 @@ from streamlit_echarts import st_echarts
 st.header("2. Deterministic Model")
 
 def load_data():
-    with open('/Users/lexdamit/Documents/MTAthleticsStories/updated_data.json', 'r') as f:
+    with open('/updated_data.json', 'r') as f:
         return json.load(f)
 
 # Main app logic
