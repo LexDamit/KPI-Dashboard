@@ -22,7 +22,7 @@ st.markdown("This dashboard introduces a systematic analysis of key performance 
 
 st.header("1.Categorisation of Athletics Running Events")
 st.markdown("Athletics holds a distinguished position as one of the most contested sports in the Olympic Games, offering a diverse array of competitive events that test the limits of human speed, strength, and endurance. The sport is traditionally divided into three main categories: track, field, and multi-events, collectively encompassing a total of 44 distinct events. \n \nThis section specifically addresses the track category, providing a detailed exploration of its composition and the systematic classification of running events.")
-st.image('/Athletics.png')
+st.image('KPI-Dashboard/Athletics.png')
 st.markdown("**Figure 1:** Categorization of Running Events in Athletics. This diagram classifies events into Sprints, Distance, and Relays, with further subdivisions based on track configuration, distance, and team gender composition. ")
 st.image('Athletics-3.png')
 
